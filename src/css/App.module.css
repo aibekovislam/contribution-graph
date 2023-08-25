@@ -38,3 +38,52 @@
   text-align: center;
   margin-bottom: 5vh;
 }
+
+.contributions {
+  display: flex;
+  gap: 2px;
+  margin-top: 5vh;
+  margin-left: 3vw;
+}
+
+.contriution1 {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(237, 237, 237, 1);
+}
+
+.contriution2 {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(172, 213, 242, 1);
+}
+
+.contriution3 {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(127, 168, 201, 1);
+}
+
+.contriution4 {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(82, 123, 160, 1);
+}
+
+.contriution5 {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(37, 78, 119, 1);
+}
+
+.lower {
+  color: #7c7c7c;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.bigger {
+  color: #7c7c7c;
+  font-size: 12px;
+  margin-left: 5px;
+}

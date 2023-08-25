@@ -16,7 +16,9 @@ function ContributionDetail({ contribution }: any) {
         <img src={CornerSVG} className={styles.corner_svg} />
       </div>
       <div className={styles.contribute__count}>
-        {contribution.count} contributions
+        {contribution.count !== 0
+          ? contribution.count + " " + "contributions"
+          : "No contributions"}
       </div>
       <div className={styles.date__contribute}>
         {formatDate(contribution.date)}
