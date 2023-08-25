@@ -1,0 +1,78 @@
+:root {
+  --color-0: rgba(237, 237, 237, 1);
+  --color-1: rgba(172, 213, 242, 1);
+  --color-2: rgba(127, 168, 201, 1);
+  --color-3: rgba(82, 123, 160, 1);
+  --color-4: rgba(37, 78, 119, 1);
+}
+
+.contribution-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 2px;
+  padding-top: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.week-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+}
+
+.grid-item {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.grid-item:hover {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+}
+
+.label-day {
+  font-size: 12px;
+  color: #767676;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.month-label {
+  font-size: 12px;
+  color: #767676;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contributionDetailOverlay {
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  bottom: 70px;
+  right: 70px;
+}
+
+.grid-item:hover .contributionDetailOverlay {
+  opacity: 1;
+  pointer-events: auto;
+}

@@ -1,0 +1,12 @@
+<svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="9" height="6" fill="#E5E5E5"/>
+<g id="Frame">
+<rect width="1120" height="279" transform="translate(-697 -119)" fill="white"/>
+<g id="Group">
+<path id="Vector" d="M11.9905 -10H-3.01001V5H11.9905V-10Z" fill="#EDEDED"/>
+</g>
+<g id="Tooltip">
+<path id="corner" d="M4.5 6L0.169873 1.38009e-07L8.83013 8.95112e-07L4.5 6Z" fill="black"/>
+</g>
+</g>
+</svg>
